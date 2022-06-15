@@ -1,3 +1,77 @@
 <html>
-Welcome to the MoNet project @ MTU, Cork, Ireland.
+    <head><title>The MoNet project</title></head>
+    <body>
+The MoNet project is an MTU Transformational Fund (TUTF) sponsored project conducting
+research into modern networking technologies.
+
+<h1>Project team</h1>
+
+The project is conducted within the Department of Computer Science at the Cork 
+Bishopstown campus of MTU. The co-PIs leading the project are:
+
+<ul>
+    <li> Dr. Victor Cionca. Focus on programmable wireless networks</li>
+    <li> Roland Katona. Focus on network resource management, HAN.</li>
+    <li> Dylan Smyth. Focus on network security and programmable networks.</li>
+    <li> Jonathan Sherwin. Focus on SDN, data centre networking.</li>
+</ul>
+
+
+<h1>Research focus</h1>
+
+MoNet tackles the challenges of current and future networking infrastructures in 
+dealing with
+
+<ul>
+    <li> increase in content consumption, such as video, games, AR/VR, etc</li>
+    <li> increase in the quality and size of consumed content, as well as tighter timing requirements</li>
+    <li> increase in rural and sub-urban traffic demands</li>
+    <li> increase in threats and attacks.</li>
+</ul>
+
+Content is constantly increasing in quality and size: 4K video is becoming commonplace,
+with many starting to look at 8K. Framerate is also increasing to support video games
+and AR/VR applications. The increase in content size is accompanied by an increase
+in volume consumed and a shift to streaming models, where not only video and audio
+are being streamed, but also video games, video conferences, lectures, training, etc.
+The physical layer of current and future networks is increasing to provide higher
+data rates, going beyond 400Gb fibre, 10's Gbps wireless with mmwave radios in 
+both WiFi and 5G. However, while the end devices and access technologies are
+able to generate content demands and support high data rate traffic, aggregating
+this traffic all the way to the core network, processing the traffic, etc. will
+place significant demands on the networking technologies.
+
+The questions asked by the MoNet project are:
+
+<ul>
+    <li> what will the topology of future networks look like (who will be connected where, where will data be processed, etc)?</li>
+    <li> considering the high data rates and traffic volumes, how will future networks be managed to provide reliable, available, timely access to content?</li>
+    <li> how close can the edge of the network be to the end devices?</li>
+    <li> can the network help the edge to process requests?</li>
+    <li> increased network control can also lead to increased security, but sometimes it can also introduce new vulnerabilities; what are these vulnerabilities and how can they be prevented?</li>
+</ul>
+
+<a href="./research.html">MoNet research</a>
+<h1>Testbed</h1>
+
+Part of the contribution of the MoNet project will be developing a research testbed
+to facilitate experimentation in the above topics. The testbed will emulate a fully
+connected network edge, consisting of end devices and LANs interconnected through a
+wireless mesh network.
+
+The testbed, deployed in the MTU Bishopstown campus will consist of four network
+segments interconnected through a high speed mmwave wireless mesh network.
+
+Each network segment will contain
+
+<ul>
+    <li> high performance server hosting application VMs or for computational tasks</li>
+    <li> 2x Home Area Networks each consisting of gateway + 2x end devices (Single Board Computer)</li>
+    <li> SDN-enabled switch (in the future programmable switch)</li>
+    <li> border router.</li>
+</ul>
+
+The mmwave mesh backbone will be implemented using Cambium CN v5000 distribution
+nodes and it will allow several possible paths between network segments.
+    </body>
 </html>

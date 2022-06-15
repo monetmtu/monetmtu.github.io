@@ -1,0 +1,90 @@
+<html>
+    <head><title>MoNet research</title></head>
+    <body>
+
+The MoNet project conducts research in the following topics
+
+<ul>
+    <li> programmable and software defined networks</li>
+    <li> control of high data rate networks to provide deterministic guarantees (QoS, SLA)</li>
+    <li> reliable network telemetry</li>
+    <li> network security</li>
+    <li> mmwave mesh networks as the transport layer of the future</li>
+    <li> in-network processing, edge processing, and the importance of end-devices.</li>
+</ul>
+
+<h2>Acquiring accurate network state information at high data rates</h2>
+
+Network operators need to be able to account for what happens on their networks -
+for reasons of security, regulatory compliance, service-level agreements, and
+troubleshooting and debugging. SDN has made networks more dynamic, but has also
+made it more difficult to explain and account for events that occurred on the
+network in the past. It is infeasible and undesirable to record every packet that
+is transferred on a network. One challenge is to identify the essential set of
+data to be recorded. This must be detailed enough to support the required purposes,
+yet concise enough to lend the approach to being used on large networks. Another
+challenge is to select appropriate methods to analyse the data. As well as classic
+querying, there is an opportunity to apply AI.
+
+<h2>Building robust and secure networks that can defend themselves and end devices against attacks</h2>
+
+Computer networks are a key component of national infrastructure as they facilitate
+various forms of essential communication for private citizens, businesses, public
+services, and government departments. The 2021 HSE Ransomware attack, one of many
+examples of a targeted attack against computer systems, demonstrated just how
+reliant modern services are on computer systems. The attack against the HSE caused
+essential health services to be unavailable and forced treatments for many patients
+to be suspended. The complex nature of modern attacks, as well as the potential
+for complex software and networks to contain vulnerabilities, makes defending a
+modern network difficult. Security solutions developed on top of technology such
+as SDN aims to address many network security issues, as well as protect networks
+against targeted attacks such as the one against the HSE. However, SDN can itself
+be vulnerable to attack. In the last few years research has found that these networks
+can be attacked in ways which can impact end users of the network or the network
+itself. Moreover, attacks have been developed which allow an attacker to bypass
+security controls deployed in the network. While defensive security technology is
+moving in the right direction, more work must be conducted to ensure the safety
+and security of future networks.
+
+<h2>Flexible and customisable network management interfaces for home gateway and end devices to best utilise the network resources</h2>
+
+Due to the pandemic WAH (Work at Home) / SOHO (Small Office/Home Office) have
+become the norm and is expected to remain common even after the situation
+normalizes, as set out in Ireland’s National Remote Work Strategy [4] that aims
+to maximize economic, social and environmental benefits and is further
+supported by the recently introduced legislation which gives employees the
+right to requests to work remotely.  So, improving the
+security/functionality/performance/resilience of home NWs is an important
+consideration that impacts many users and organisation. ISPs use proprietary SW
+on Consumer Perimeter Equipements (CPE) which suits to some, but to others it
+is a constraint! They only provide a limited set of features and do not allow
+the degree of control that is common in an enterprise NW environment.
+Furthermore, they cannot be easily extended as they have a monolithic software
+stack. So, developing new SW or experimenting is out of question and thus home
+office users who have more specific needs regarding security and functionality
+are forced to buy expensive devices. An alternative to buying enterprise grade
+equipment is to use a custom open-source firmware which is increasingly
+supported by OEM home GW devices. 
+
+<h2>Achieving high data rates equivalent to optical fibre while being deterministic on a wireless mesh network</h2>
+
+The network infrastructure presented above must be wireless to support both
+fixed and mobile clients. Communication in mmwave spectrum bands above 60GHz
+can reach data rates of 35Gbps, comparable to optical fibre. The links are
+fragile, very sensitive to obstacles, even atmospheric changes and the use of a
+mesh topology provides redundancy and can increase reliability. Considering the
+high data rate this becomes similar to a switching fabric in a data centre. In
+order to support enterprise traffic with Service Level Agreements on such
+networks they require deterministic control. Management of network resources
+and their allocation to user traffic must be centrally planned to achieve
+optimality. The network must be able to react to failures quickly, considering
+that 100ms of downtime can lose 350Mb of data. The challenge is to react
+quickly but also correctly, such that other traffic is not affected. Existing
+research in mmwave networks has highlighted the frailty of the links and the
+significant impact of blockages and has proposed models for detecting or
+predicting blockages. The concept of mmwave mesh networks is popularised by
+Facebook through the Terragraph project, however that does not consider the
+requirements for deterministic control, which is an open problem in mmwave
+networking research.
+
+
